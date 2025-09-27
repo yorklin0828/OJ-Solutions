@@ -1,0 +1,22 @@
+// a006. 一元二次方程式
+
+#include<iostream>
+#include<cmath>
+using namespace std;
+
+int main(){
+    int a, b, c;
+    cin >> a >> b >> c;
+    int x1, x2;
+    if ((b * b) - 4 * a * c < 0)
+        cout << "No real root" << endl;
+    else if ((b * b) - 4 * a * c == 0){
+        x1 = (-b + sqrt((b * b) - 4 * a * c)) / (2 * a);
+        cout << "Two same roots " << "x=" << x1 << endl;
+    }else{
+        x1 = (-b + sqrt((b * b) - 4 * a * c)) / (2 * a);
+        x2 = (-b - sqrt((b * b) - 4 * a * c)) / (2 * a);
+        cout << "Two different roots " << "x1=" << x1 << " , " << "x2=" << x2 << endl;
+    }
+    return 0;
+}
