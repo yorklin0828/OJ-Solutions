@@ -1,7 +1,7 @@
-#include<bits/stdc++.h>
-using namespace std;
+#include <cstdio>
 
-#define ll long long
+using namespace std;
+using ll = long long;
 const ll MOD = 1e9 + 7;
 
 int main(){
@@ -16,5 +16,6 @@ int main(){
         n >>= 1;
     }
     printf("%lld", ans);
+    
     return 0;
 }

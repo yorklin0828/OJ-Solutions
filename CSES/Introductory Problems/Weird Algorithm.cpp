@@ -1,7 +1,7 @@
-#include<bits/stdc++.h>
-using namespace std;
+#include <cstdio>
 
-#define ll long long
+using namespace std;
+using ll = long long;
 
 int main(){
     ll num;
@@ -16,5 +16,6 @@ int main(){
         }
     }
     printf("%lld\n", num);
+
     return 0;
 }

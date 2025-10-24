@@ -1,7 +1,7 @@
-#include<bits/stdc++.h>
-using namespace std;
+#include <cstdio>
 
-#define ll long long
+using namespace std;
+using ll = long long;
 
 int main(){
     ll n;
@@ -12,5 +12,6 @@ int main(){
         ans += n / i;
     }
     printf("%lld", ans);
+    
     return 0;
 }

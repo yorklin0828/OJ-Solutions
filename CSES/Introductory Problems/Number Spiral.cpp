@@ -1,7 +1,8 @@
-#include<bits/stdc++.h>
-using namespace std;
+#include <cstdio>
+#include <algorithm>
 
-#define ll long long
+using namespace std;
+using ll = long long;
 
 void solution(ll x, ll y){
     ll m = max(x, y);

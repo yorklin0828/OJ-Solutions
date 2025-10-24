@@ -1,7 +1,7 @@
-#include<bits/stdc++.h>
-using namespace std;
+#include <cstdio>
 
-#define ll long long
+using namespace std;
+using ll = long long;
 
 int main(){
     ll n;
@@ -9,6 +9,7 @@ int main(){
     for(ll i = 1; i <= n; i++){
         ll total = i * i;
         total = total * (total - 1) / 2;
+        
         ll attack = (i - 1) * (i - 2);
         printf("%lld\n", total - 4 * attack);
     }

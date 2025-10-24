@@ -1,4 +1,7 @@
-#include<bits/stdc++.h>
+#include <iostream>
+#include <string>
+#include <algorithm>
+
 using namespace std;
 
 int main(){
@@ -14,4 +17,6 @@ int main(){
         }
     }
     cout << max(maxlen, temp) << "\n";
+
+    return 0;
 }

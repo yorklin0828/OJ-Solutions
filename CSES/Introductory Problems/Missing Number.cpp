@@ -1,7 +1,8 @@
-#include<bits/stdc++.h>
-using namespace std;
+#include <cstdio>
+#include <vector>
 
-#define ll long long
+using namespace std;
+using ll = long long;
 
 int main(){
     ll n;
